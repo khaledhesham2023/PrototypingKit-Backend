@@ -35,4 +35,7 @@ dependencies {
 
     testImplementation(kotlin("test"))
     testImplementation(ktorLibs.server.testHost)
+
+    implementation("io.ktor:ktor-client-core:2.x.x")
+    implementation("io.ktor:ktor-client-cio:2.x.x")
 }
